@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header h1 {
+  margin: 3% 35%;
+  width: 25%;
+  padding: 0 2%;
+  color: gold;
+  background-color: purple;
+  text-align: center;
+  font-size: 60px;
+  display: inline-block;
+}
+
+nav {
+  text-align: center;
+  border-bottom: 5px dashed rgba(128, 0, 128, 0.426);
+}
+
+nav a,
+.return-to-top {
+  text-decoration: none;
+  color: purple;
+  font-size: 20px;
+  margin: 1% 2% 2% 2%;
+  display: inline-block;
+  padding: 1% 1.2%;
+  background-color: rgb(255, 217, 0);
+  border-radius: 24px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.container-date {
+  width: 97%;
+  margin: 5% auto;
+  text-align: center;
+  border: 10px solid rgba(228, 244, 252, 0.614);
+  padding: 1%;
+  position: relative;
+}
+
+.date-title {
+  position: absolute;
+  top: -35px;
+  left: 20px;
+  background-color: #fff;
+  padding: 10px;
+  font-size: 26px;
+  font-family: "Merriweather";
+}
+
+.container-game {
+  font-weight: 600;
+  width: 47%;
+  padding: 2%;
+  margin: 1.5% 15px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 1px 1px 1px 2px rgba(9, 9, 9, 0.096);
+}
+
+.group {
+  color: rgba(136, 134, 134, 0.763);
+  font-size: 25px;
+  padding: 5px 0px 25px 0px;
+}
+
+.flag {
+  font-size: 40px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 255, 0.197);
+}
+
+.team-name {
+  color: rgb(95, 95, 95);
+  font-size: 35px;
+  margin: 1px 20px;
+}
+
+.score {
+  padding-top: 20px;
+}
+
+.score span {
+  font-size: 45px;
+  margin: 30px;
+  color: rgb(72, 72, 72);
+}
+
+.vs {
+  font-size: 30px;
+}
+
+.time-location {
+  color: rgba(99, 99, 99, 0.647);
+  font-size: 18px;
+  padding-top: 40px;
+}
+
+.highlights {
+  margin-top: 10%;
+}
+.highlights a {
+  color: red;
+}
+
+/*  --Media Queries */
+
+@media (max-width: 1425px) {
+  .container-game {
+    width: 47%;
+    padding: 0.5%;
+  }
+
+  .team-name {
+    font-size: 30px;
+    margin: 1px 5px;
+  }
+  */ .flag {
+    font-size: 30px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 255, 0.197);
+  }
+}
+
+@media (max-width: 1150px) {
+  .container-date {
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+  }
+
+  .container-game {
+    width: 45%;
+    padding: 2% 1%;
+  }
+
+  .vs {
+    font-size: 20px;
+  }
+
+  .team-name {
+    font-size: 25px;
+  }
+
+  .flag {
+    font-size: 28px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 255, 0.197);
+  }
+
+  .score span {
+    font-size: 40px;
+    margin: 20px;
+  }
+
+  .time-location {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .highlights a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container-date {
+    width: 98%;
+    margin: 5% auto;
+    text-align: center;
+  }
+
+  .container-game {
+    width: 45%;
+    padding: 2% 1%;
+  }
+
+  .team-name {
+    font-weight: 540;
+  }
+  * */ .group {
+    font-size: 20px;
+  }
+
+  .score span {
+    font-size: 30px;
+    margin: 15px;
+  }
+
+  .time-location {
+    font-size: 15px;
+  }
+
+  .flag {
+    font-size: 25px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 255, 0.197);
+  }
+}
+
+@media (max-width: 850px) {
+  .container-game {
+    width: 90%;
+    padding: 3%;
+  }
+
+  .date-title {
+    font-size: 20px;
+    top: -30px;
+  }
+
+  .team-name {
+    font-size: 35px;
+    /* padding: 2%; */
+  }
+
+  .vs {
+    font-size: 30px;
+  }
+
+  .flag {
+    font-size: 40px;
+  }
+
+  .score span {
+    font-size: 40px;
+    /* padding: 2%; */
+  }
+}
+
+@media (max-width: 630px) {
+  .container-game {
+    width: 90%;
+    padding: 2%;
+  }
+
+  .date-title {
+    font-size: 18px;
+  }
+
+  .team-name {
+    font-size: 30px;
+  }
+
+  .vs {
+    font-size: 25px;
+  }
+
+  .flag {
+    font-size: 40px;
+  }
+
+  .score span {
+    font-size: 40px;
+    /* padding: 2%; */
+  }
+}
+@media (max-width: 560px) {
+  .container-date {
+    width: 95%;
+    margin: 7% auto;
+  }
+
+  .container-game {
+    width: 90%;
+    margin: 5%;
+    padding: 2%;
+  }
+
+  .group {
+    font-size: 20px;
+  }
+  .date-title {
+    font-size: 15px;
+  }
+
+  .team-name {
+    font-size: 25px;
+  }
+
+  .vs {
+    font-size: 25px;
+  }
+
+  .flag {
+    font-size: 30px;
+  }
+
+  .score span {
+    font-size: 35px;
+  }
+
+  .time-location {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 475px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  nav a,
+  .return-to-top {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 2%;
+    display: inline-block;
+    /* padding: 1% 1.2%; */
+    background-color: rgb(255, 217, 0);
+    border-radius: 24px;
+  }
+
+  .container-date {
+    text-align: center;
+    width: 95%;
+    margin: 7% auto;
+  }
+
+  .container-game {
+    width: 90%;
+  }
+
+  .group {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .date-title {
+    font-size: 12px;
+  }
+
+  .team-name {
+    font-size: 18px;
+  }
+
+  .vs {
+    font-size: 15px;
+  }
+
+  .flag {
+    font-size: 20px;
+  }
+
+  .score {
+    padding-top: 5px;
+  }
+
+  .score span {
+    font-size: 25px;
+    margin: 15px;
+  }
+
+  .time-location {
+    font-size: 10px;
+  }
+  .highlights a {
+    font-size: 12px;
+  }
+}
