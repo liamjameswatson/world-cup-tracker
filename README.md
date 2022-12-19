@@ -4,7 +4,7 @@ A website for users to keep track of the world cup 2022
 
 ## Usage
 
-To use this site look at the dates/games of your choice. Below each game, click on 'watch highlights' to watch brief highlights of the match, 
+To use this site look at the dates/games of your choice. Below each game, click on 'watch highlights' to watch brief highlights of the match,
 
 ## About
 
@@ -15,3 +15,7 @@ I made some divs for each date, and inside them I put more divs for each game in
 ### Lessons
 
 I found out cdns and media queries work. I do have to keep updating the html though, after every game, which hopefully in the future, I'll be able to fix. I might make another one for the next world cup (2026) and compare my skills. This has been a good project, and it gave me a lot of coding experience, whilst keeping up to date with the world cup games. I now know the command lines of how to push to github, and could do it in my sleep, and my friends all now know that I am learning how to build websites!
+
+## License
+
+Please refer to [MIT LICENSE](./LICENSE) in repo.
